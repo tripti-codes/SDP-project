@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Meditation Classes Feedback Survey Form</title>
+    <link rel="stylesheet" href="/styles/yoga.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <h1>YOGA MEDITATION CLASSES FEEDBACK</h1>
+    <h2>SURVEY FORM</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label>Type of Feedback:</label>
+        <div class="inline-options">
+            <input type="radio" id="positive" name="feedback_type" value="positive" required>
+            <label for="positive">Positive</label>
+            <input type="radio" id="negative" name="feedback_type" value="negative">
+            <label for="negative">Negative</label>
+        </div>
+
+        <label>Classes Taken:</label>
+        <div class="inline-options">
+            <input type="checkbox" id="yoga" name="classes" value="yoga">
+            <label for="yoga">Yoga</label>
+            <input type="checkbox" id="aerobics" name="classes" value="aerobics">
+            <label for="aerobics">Aerobics</label>
+            <input type="checkbox" id="meditation" name="classes" value="meditation">
+            <label for="meditation">Meditation</label>
+        </div>
+
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" rows="4"></textarea>
+
+        <input type="submit" value="Submit Feedback">
+    </form>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.inline-options {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.inline-options label {
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+input[type="submit"],
+input[type="reset"],
+button {
+    margin-right: 10px;
+    padding: 5px 10px;
+}

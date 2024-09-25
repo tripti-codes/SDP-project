@@ -1,0 +1,87 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+a,
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* Container styling */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Section styling */
+section {
+    padding: 20px 0;
+    margin: 20px 0;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Button group styling */
+.button-group {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
+
+/* Button styling */
+.button-group a {
+    text-decoration: none;
+    background: #4CAF50;
+    color: #fff;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    transition: background 0.3s ease;
+}
+
+.button-group a:hover {
+    background: #45a049;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

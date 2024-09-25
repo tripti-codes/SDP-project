@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="/styles/regester.css"> 
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <form action="#" method="post">
+        <label for="name">Enter name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="password">Enter Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="address">Enter Address:</label>
+        <textarea id="address" name="address" rows="3" required></textarea>
+
+        <label>Gender:</label>
+        <div class="inline-options">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <label>Sports:</label>
+        <div class="inline-options">
+            <input type="checkbox" id="basketball" name="sports" value="basketball">
+            <label for="basketball">Basketball</label>
+            <input type="checkbox" id="cricket" name="sports" value="cricket">
+            <label for="cricket">Cricket</label>
+            <input type="checkbox" id="football" name="sports" value="football">
+            <label for="football">Football</label>
+        </div>
+
+        <label for="age">Enter age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="photo">Enter photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*">
+
+        <div class="buttons">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            <button type="button">Cancel</button>
+        </div>
+    </form>
+</body>
+</html>
